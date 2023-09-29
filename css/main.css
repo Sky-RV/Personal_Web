@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-image: url("../images/galaxy.jpg");
+    background-repeat: repeat; 
+    background-position: bottom;
+	background-size: cover; 
+	font-family: "Syne", sans-serif;
+}
+
+.avatar-Class {
+	text-align: center;
+	width: 100%;
+}
+
+.title-Class {
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: white;
+	font-size: 32px;
+	margin: 40px;
+}
+
+.links-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.all-buttons {
+  border: none;
+  display: inline-block;
+  padding: 12px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap
+}
+
+.btn-hover-blue:hover {
+  color: #D3D2F7 !important;
+  background-color: #33006B !important
+}
+
+.large {
+  font-size: 20px!important;
+  border-radius: 16px;
+}
+
+.blur {
+  color: #000 !important;
+  background-color: rgba(169, 169, 169, 0.62) !important
+}
+
+.link-btn {
+  min-width: 50% !important;
+}
+
+footer {
+	font-size: 12px;
+	text-align: center;
+	color: #C6C4C4;
+	margin-top: 24px;
+	padding: 1px;
+}
