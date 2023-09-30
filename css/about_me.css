@@ -168,6 +168,59 @@ i:hover{
 	color: cornflowerblue;
 }
 
+table {
+	width: 35%;
+	border: none;
+	margin: 8px;
+	text-align: left;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+}
+
+tr:nth-child(odd) {
+ 	background-color: #DABBE3;
+}
+
+tr:nth-child(even) {
+  	background-color: white;
+}
+
+th, td {
+  	border-style: none;
+	padding: 5px;
+	padding-left: 16px;
+}
+    
+table tr:last-child td:last-child {
+    border: none;
+    border-bottom-right-radius: 10px;
+}
+
+table tr:first-child th:first-child {
+	border: none;
+	border-top-left-radius: 10px;
+}
+
+table tr:first-child td:first-of-type {
+    border: none;
+    border-top-right-radius: 10px;
+}
+
+table tr:last-child th:first-child {
+	border: none;
+	border-bottom-left-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
