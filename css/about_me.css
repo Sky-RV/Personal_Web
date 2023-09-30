@@ -211,6 +211,14 @@ table tr:last-child th:first-child {
 	border-bottom-left-radius: 10px;
 }
 
+.short-about-me {
+	text-align: start;
+	color: black;
+	max-height: 5;
+	font-size: 18px;
+	margin-left: 40%;
+}
+
 
 
 
