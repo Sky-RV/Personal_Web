@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: white;
+}
+
+.div-card {
+	width: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+}
+
+.div-header {
+	background-color: red;
+	color: white;
+	padding: 10px;
+	font-size: 40px;
+}
+
+.div-container {
+	padding: 10px;
+}
+
+.grid-container {
+	display: flex;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	column-gap: normal;
+}
+
+.grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: none;
+	padding: 8px;
+	margin: 12px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
